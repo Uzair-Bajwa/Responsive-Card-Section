@@ -1,0 +1,48 @@
+
+/* Responsive Portion */
+@media (max-width: 1199px) {
+    #origen h1 {
+        font-size: 20px;
+    }
+
+    #origen img {
+        width: 72px;
+    }
+
+    #origen p {
+        font-size: 12px;
+    }
+
+    .btn-main {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .material-symbols-outlined {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    #origen h1 {
+        font-size: 15px;
+    }
+
+    #origen p {
+        font-size: 10px;
+    }
+
+    #origen img {
+        width: 62px;
+    }
+    .col-lg-4 {
+        width: 50%;
+    }
+
+}
+@media (max-width: 480px) {
+    .col-lg-4 {
+        width: 100%;
+    }
+}
